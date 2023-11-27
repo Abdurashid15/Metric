@@ -23,22 +23,26 @@
     --white: #FFF;
     --dark-green: #3E5C50;
     --light-black: #333;
-    --blue:#489FD9;
-    --black:#2B2B2B;
+    --blue: #489FD9;
+    --black: #2B2B2B;
 }
-body{
+
+body {
     font-family: 'Roboto';
 }
-a{
+
+a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
+
 .container {
     width: 100%;
     max-width: var(--width);
     margin: 0px auto;
     display: flex;
 }
+
 .grafig {
     margin-top: 70px;
     margin-left: 30px;
@@ -286,71 +290,85 @@ a{
     line-height: 22px;
 
 }
-.information{
+
+.information {
     display: flex;
     gap: 20px;
-    padding-top:70px ;
+    padding-top: 70px;
     align-items: center;
 }
-.Information h3{
-    padding-top:11px ;
+
+.Information h3 {
+    padding-top: 11px;
     color: var(--light-black);
-font-family: 'Roboto';
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.Information p{
+
+.Information p {
     color: var(--light-black);
-font-family: 'Roboto';
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px; 
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
     padding-top: 17px;
 }
-.starter__ul span{
+
+.starter__ul span {
     color: var(--blue);
-font-family: 'Roboto';
-font-size: 19px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px; /* 115.789% */
+    font-family: 'Roboto';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 115.789% */
 }
-.starter__ul li{
-    color:var(--black) ;
-font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px; /* 157.143% */
+
+.starter__ul li {
+    color: var(--black);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
 }
-.plans{
-    background-color:#DDE7ED;
+
+.plans {
+    background-color: #DDE7ED;
     margin-top: 74px;
 }
-.PlansPricing{
+
+.PlansPricing {
     width: 100%;
     max-width: var(--width);
-    margin: 0px auto;  
+    margin: 0px auto;
 }
+
 .starter__ul {
     border-bottom: 1px solid var(--dark);
 }
+
 .cards {
-    display: flex ;
+    display: flex;
     justify-content: center;
-} 
-.card{
-    border-radius:3px;
+}
+
+.card {
+    border-radius: 3px;
     padding: 17px;
     background-color: var(--white);
 }
-.cards{
+
+.cards {
     gap: 20px;
 }
-.plan-btn{
+
+.plan-btn {
     margin-top: 19px;
     padding: 10px 44px;
     background-color: var(--dark);
@@ -358,33 +376,121 @@ line-height: 22px; /* 157.143% */
     border-radius: 3px;
     transition: all 0.6s;
 }
-.plan-btn:hover{
-    color:var(--dark);
-    background-color:var(--white);
+
+.plan-btn:hover {
+    color: var(--dark);
+    background-color: var(--white);
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.1);
 }
-.PlansPricing h5{
+
+.PlansPricing h5 {
     margin-top: 19px;
     text-align: center;
 }
-h5 span{
+
+h5 span {
     color: var(--blue);
-text-align: center;
-font-family: 'Roboto';
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px; 
-cursor: pointer;
-} 
-.plans-bottom{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.plans-bottom {
     padding-bottom: 69px;
 }
-.card li{
+
+.card li {
     margin-top: 14px;
 }
-.starter__ul li{
+
+.starter__ul li {
     margin-top: 10px;
+}
+
+.PeopleSay {
+    margin-top: 70px;
+    width: 100%;
+    max-width: var(--width);
+    margin: 0px auto;
+    text-align: center;
+}
+
+.title {
+    margin-top: 70px;
+    color: var(--light-black);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.subtitle {
+    margin-top: 45px;
+    color: var(--light-black);
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.PeopleSay img {
+    margin-top: 22px;
+}
+
+.Name {
+    margin-top: 10px;
+}
+
+.companys {
+    margin-top: 70px;
+    height: 156px;
+    background-color: #A1BFD4;
+    text-align: center;
+}
+
+.footer {
+    background-color: #2B2C2E;
+    display: flex;
+   justify-content: center;
+}
+
+.footer .form {
+    padding-top: 35px;
+    margin: 0px auto;
+
+}
+
+.form p {
+    margin-top: 25px;
+    color: #939596;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.form .input {
+    width: 193px;
+    height: 40px;
+}
+form{
+    display: flex;
+}
+form a{
+    border:1px solid var(--dark);
+    background-color:var(--dark);
+    color:var(--white);
+    padding-top: 5%;
 }
